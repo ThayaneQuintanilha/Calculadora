@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    
+    
+    <form>
+        <h1>Calculadora</h1>
+        <input type="number" id="num1" name="num1" placeholder="First Number" required>
+  
+        <input type="number" id="num2" name="num2" placeholder="Second Number" required>
+  
+        <div class="buttons">
+          <input type="button" onclick="addNums()" class="input" id="add" name="op" value="+">
+          <input type="button" onclick="subNums()" class="input" id="subtract" name="op" value="-">
+          <input type="button" onclick="mulNums()" class="input" id="multiply" name="op" value="*">
+          <input type="button" onclick="divNums()" class="input" id="divide" name="op" value="/">
+        </div>
+         
+        <h2 id="result"></h2>
+  
+    </form>
+
+    <script src="calculadora.js"></script>
+
+</body>
+</html>
